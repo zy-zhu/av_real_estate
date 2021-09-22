@@ -14,11 +14,11 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
     },
-    paper: {
-        padding: theme.spacing(15),
-        textAlign: 'right',
-        color: theme.palette.text.secondary,
-    },
+    // paper: {
+    //     padding: theme.spacing(15),
+    //     textAlign: 'right',
+    //     color: theme.palette.text.secondary,
+    // },
 }));
 
 

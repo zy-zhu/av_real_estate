@@ -16,7 +16,7 @@ class About extends Component {
 
       <AboutContainer>
         <div className="About" id='overlay'>
-          <h1>About</h1>
+          {/* <h1>About</h1> */}
           <Footer />
         </div>
       </AboutContainer>

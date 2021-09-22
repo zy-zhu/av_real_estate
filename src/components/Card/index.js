@@ -42,8 +42,6 @@ const Card = ({ article }) => {
                     <div className='overlay'>
                     </div>
 
-
-
                 </a>
 
                 {/* <div className="uk-card uk-card-muted uk-card-hover">

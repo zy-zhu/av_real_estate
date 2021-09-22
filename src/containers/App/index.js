@@ -57,16 +57,15 @@ class App extends Component {
 
         <Header></Header>
 
-        <div className="menu">
-          {/* <IconButton aria-label="delete" size="small" href='/about'>
-            <Icon>add_circle</Icon>
-          </IconButton> */}
+        {/* <div className="menu">
+    
           <Button size="small" > <Link className="link btn_menu" to='/about'>About</Link></Button>
           <Button size="small">
             <Link className="link btn_menu" to='/'>Case Studies</Link></Button>
           <Button size="small">
             <Link className="link btn_menu" to='/contact'>Home</Link></Button>
-        </div>
+        </div> */}
+        
         {/* 
           <Link
             className="frontpage-job"
@@ -88,7 +87,8 @@ class App extends Component {
             <Route path="/category/:id" component={Category} exact />
           </Switch>
 
-
+<About></About>
+{/* 
           <Switch location={isModal ? this.previousLocation : location}>
 
             <Route exact path="/contact/" component={Home} />
@@ -98,7 +98,7 @@ class App extends Component {
           {isModal
             ? <Route exact path="/modal/:id"><Modal isModal={isModal} /></Route>
             : null
-          }
+          } */}
 
 
         </div>

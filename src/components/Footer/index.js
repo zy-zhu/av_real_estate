@@ -70,37 +70,37 @@ const Footer = () => {
                 <Grid item item xs={12} sm={6}>
                     <h4>Press Release</h4>
 
-                    Download Press Material<br />
+                    <p>Download Press Material<br />
 
                     The material on this web site can be used freely in any publication provided that
                     <br />
 
                     1. It is duly credited as a project by the (class Name)<br />
-                    2. A PDF copy of the publication is sent to fabiod@mit.edu
+                    2. A PDF copy of the publication is sent to fabiod@mit.edu</p>
 
                     <h4>AV REAL ESTATE is a project by</h4>
 
                     <ul>
 
                         <li><a href="http://chinaroom.polito.it/" target="_blank">
-                            <img src="img/cre_logo_w.png" width="200" height="100" className="logo_head"
+                            <img src="img/cre_logo_nomit.png" width="180" height="100" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
 
                         <li><a href="http://chinaroom.polito.it/" target="_blank">
-                            <img src="img/sul_logo.svg" width="150" height="80" className="logo_head"
+                            <img src="img/sul_logo_nomit.svg" width="130" height="80" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
                         <li><a href="http://chinaroom.polito.it/" target="_blank">
-                            <img src="img/mit_scl_logo_white.svg" width="130" height="100" className="logo_head"
+                            <img src="img/scl_nomit.svg" width="80" height="80" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
                         <li><a href="http://chinaroom.polito.it/" target="_blank">
-                            <img src="img/sap_logo_w.png" width="150" height="100" className="logo_head"
+                            <img src="img/sap_logo_w.png" width="130" height="100" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
                         <li><a href="http://chinaroom.polito.it/" target="_blank">
-                            <img src="img/sul_logo.svg" width="150" height="100" className="logo_head"
+                            <img src="img/jwel_nomit.png" width="150" height="100" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
 

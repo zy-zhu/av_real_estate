@@ -26,10 +26,10 @@ li{
    text-align: right;
 }
 
-/* .App{
-  margin-left:150px;
-  margin-right: 150px;
-} */
+.App{
+  margin-left:0px;
+  margin-right: 0px;
+}
 
 .Case_Study{
 
@@ -81,11 +81,13 @@ h5{
 
 }
 
+
 h6{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 12px;
 }
 
+li{font:13px;}
 .big_year{
   font-size: 22px;
 }
@@ -93,7 +95,8 @@ h6{
 
 p{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
+  
   
 }
 
@@ -122,7 +125,7 @@ p{
 }
 
 #overlay{
-  margin-top:100px;
+  /* margin-top:100px; */
   margin-bottom: 100px;
 }
 
