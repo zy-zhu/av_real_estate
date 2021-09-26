@@ -56,7 +56,7 @@ const Category = () => {
 
                                                 style={scrollContainerStyle} >
                                                 <IntroBox>
-                                                    <p>Intoduction</p>
+                                                    <h4>Intoduction</h4>
 
                                                     <ReactMarkdown>{categories[0].introduction}</ReactMarkdown>
                                                 </IntroBox>

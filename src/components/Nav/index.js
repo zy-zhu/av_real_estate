@@ -21,13 +21,13 @@ const Nav = () => {
                                 </div>
 
                                 <div className="uk-navbar-left">
-                                    <ul className="uk-navbar-nav ">
+                                    <ul className="uk-navbar-nav">
                                         {categories.map((category, i) => {
                                             return (
                                                 <li key={category.slug} className='selection'>
                                                     <Link
                                                         to={`/category/${category.slug}`}
-                                                        className="uk-link-reset "
+                                                        className="uk-link-reset nav-font"
                                                     >
                                                         {category.name}
                                                     </Link>

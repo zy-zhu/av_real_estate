@@ -18,10 +18,12 @@ const MainTitle = styled.div`
 `
 
 const SubTitle = styled.div`
-text-alighn:left
-font-family:Arial;
+text-alighn:left;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight:300;
 font-size:15px;
 animation: 1s ${FadeInAnimation};
+
 `
 
 const Home = () => {

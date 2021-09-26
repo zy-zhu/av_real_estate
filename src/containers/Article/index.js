@@ -18,11 +18,11 @@ import Divider from '@material-ui/core/Divider';
 
 
 const Margin = styled.div`
-margin-left:80px;
-margin-top:10px;
-margin-bottom:50px;
+margin-left:60px;
+margin-top:20px;
+margin-bottom:60px;
 margin-right:0px;
-padding-top:80px;
+padding-top:40px;
 `
 
 const Margin_sidebar = styled.div`

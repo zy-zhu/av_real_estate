@@ -2,21 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 
 const FooterContainer = styled.div`
 background-color: #ffd861;
-min-height:300px;
+min-height:100px;
 position:relative;
-// margin-top:100px;
-padding-right:10vw;
-padding-left:10vw;
-padding-top:5vh;
+padding-right:20vw;
+padding-left:20vw;
+padding-top:10vh;
+padding-bottom:10vh;
+margin:0;
 `
 
 const Space = styled.div`
-
-height:20px`
+height:20px;
+`
 
 const Footer = () => {
     return (
@@ -69,37 +69,37 @@ const Footer = () => {
                 </Grid>
                 <Grid item item xs={12} sm={6}>
                     <h4>Press Release</h4>
-
-                    <p>Download Press Material<br />
-
+                    <p><a href="https://mitcre.mit.edu/" target="_blank">Download Press Material</a><br />
                     The material on this web site can be used freely in any publication provided that
                     <br />
 
                     1. It is duly credited as a project by the (class Name)<br />
                     2. A PDF copy of the publication is sent to fabiod@mit.edu</p>
 
-                    <h4>AV REAL ESTATE is a project by</h4>
+                    <br/>
+
+                    <h4>Project Collaborators</h4>
 
                     <ul>
 
-                        <li><a href="http://chinaroom.polito.it/" target="_blank">
+                        <li><a href="https://mitcre.mit.edu/" target="_blank">
                             <img src="img/cre_logo_nomit.png" width="180" height="100" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
 
-                        <li><a href="http://chinaroom.polito.it/" target="_blank">
+                        <li><a href="https://www.sul.mit.edu/" target="_blank">
                             <img src="img/sul_logo_nomit.svg" width="130" height="80" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
-                        <li><a href="http://chinaroom.polito.it/" target="_blank">
+                        <li><a href="http://senseable.mit.edu/" target="_blank">
                             <img src="img/scl_nomit.svg" width="80" height="80" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
-                        <li><a href="http://chinaroom.polito.it/" target="_blank">
+                        <li><a href="https://sap.mit.edu/" target="_blank">
                             <img src="img/sap_logo_w.png" width="130" height="100" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
-                        <li><a href="http://chinaroom.polito.it/" target="_blank">
+                        <li><a href="https://jwel.mit.edu/" target="_blank">
                             <img src="img/jwel_nomit.png" width="150" height="100" className="logo_head"
                                 alt="" loading="lazy" />
                         </a> </li>
