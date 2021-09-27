@@ -1,5 +1,5 @@
 {
-  "homepage":"http://zy-zhu.github.io/av_real_estate",
+  "homepage": "http://zy-zhu.github.io/av_real_estate",
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
     "body-scroll-lock": "^4.0.0-beta.0",
+    "cloudinary-react": "^1.7.0",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-animations": "^1.0.0",
@@ -30,8 +31,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
