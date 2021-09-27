@@ -55,7 +55,7 @@ class App extends Component {
 
       <div className='App-container'>
 
-        {/* <Header></Header> */}
+        <Header></Header>
 
         {/* <div className="menu">
     
