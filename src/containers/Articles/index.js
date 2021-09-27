@@ -5,6 +5,8 @@ import ARTICLES_QUERY from "../../queries/article/articles";
 import styled, { keyframes } from 'styled-components';
 import Nav from "../../components/Nav";
 import { fadeIn } from 'react-animations';
+import Header from "../../components/Header";
+import About from "../About";
 
 
 const FadeInAnimation = keyframes`${fadeIn}`;
@@ -31,6 +33,7 @@ const Home = () => {
 
     return (
         <div>
+                <Header></Header>
             <div className='Case_Study'>
 
                 <div className="uk-section">
@@ -60,7 +63,7 @@ const Home = () => {
 
 
             </div>
-
+            <About></About>
         </div>
     );
 };

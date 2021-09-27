@@ -55,7 +55,7 @@ class App extends Component {
 
       <div className='App-container'>
 
-        <Header></Header>
+        {/* <Header></Header> */}
 
         {/* <div className="menu">
     
@@ -87,7 +87,7 @@ class App extends Component {
             <Route path="/category/:id" component={Category} exact />
           </Switch>
 
-<About></About>
+{/* <About></About> */}
 {/* 
           <Switch location={isModal ? this.previousLocation : location}>
 
