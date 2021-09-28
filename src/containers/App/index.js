@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+// import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom'
+
 
 import { Switch, Route, Link, withRouter } from "react-router-dom";
 import Articles from "../Articles";
@@ -80,12 +83,15 @@ class App extends Component {
 
 
         <div className="App">
+          <Router basename={process.env.PUBLIC_URL}>
 
-          <Switch basename={process.env.PUBLIC_URL}>
+          <Switch >
             <Route path="/" component={Articles} exact />
             <Route path="/article/:id" component={Article} exact />
             <Route path="/category/:id" component={Category} exact />
           </Switch>
+
+          </Router>
 
 {/* <About></About> */}
 {/* 
