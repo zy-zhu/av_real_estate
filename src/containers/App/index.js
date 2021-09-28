@@ -83,7 +83,7 @@ class App extends Component {
 
 
         <div className="App">
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
 
           <Switch >
             <Route path="/" component={Articles} exact />
