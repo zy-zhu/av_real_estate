@@ -81,7 +81,7 @@ class App extends Component {
 
         <div className="App">
 
-          <Switch>
+          <Switch basename={process.env.PUBLIC_URL}>
             <Route path="/" component={Articles} exact />
             <Route path="/article/:id" component={Article} exact />
             <Route path="/category/:id" component={Category} exact />
